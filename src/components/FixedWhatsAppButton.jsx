@@ -2,11 +2,20 @@ function FixedWhatsAppButton() {
   return (
     <a
       href="https://wa.me/966566789423"
+      className="fixed bottom-4 left-4 z-50 flex items-center gap-2 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg hover:bg-green-600 transition"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-full shadow-md hover:bg-green-600 z-50"
     >
-      💬 واتساب
+      {/* WhatsApp SVG Icon */}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-5 w-5"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path d="M12.04 2C6.48 2 2 6.48 2 12.05c0 1.93.5 3.73 1.43 5.33L2 22l4.74-1.39A9.958 9.958 0 0 0 12.05 22C17.62 22 22.1 17.52 22.1 12S17.62 2 12.04 2zm0 18.05c-1.57 0-3.09-.43-4.41-1.22l-.32-.19-2.82.82.84-2.74-.21-.35a8.06 8.06 0 0 1-1.25-4.36c0-4.45 3.63-8.08 8.08-8.08s8.08 3.63 8.08 8.08c0 4.45-3.63 8.08-8.08 8.08zm4.36-6.14c-.24-.12-1.4-.69-1.61-.77s-.38-.12-.54.12-.62.76-.76.91-.28.17-.52.05a6.78 6.78 0 0 1-1.99-1.23 7.51 7.51 0 0 1-1.38-1.73c-.15-.26-.02-.4.11-.53.12-.12.26-.3.4-.45.13-.15.17-.26.25-.43.08-.17.04-.32-.02-.45-.06-.12-.54-1.3-.74-1.79s-.39-.41-.54-.42h-.46c-.15 0-.4.06-.61.28s-.8.78-.8 1.9.82 2.2.94 2.36c.12.17 1.6 2.45 3.88 3.43 2.29.98 2.29.65 2.7.61.41-.04 1.4-.57 1.6-1.12.2-.55.2-1.03.14-1.12-.06-.09-.21-.15-.44-.27z" />
+      </svg>
+
     </a>
   );
 }
