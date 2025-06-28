@@ -1,0 +1,63 @@
+/* app/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Reem+Kufi:wght@700&display=swap');
+
+h1 {
+  font-family: "Reem Kufi", serif;
+  font-weight: 700;
+  font-size: 70px;
+  background: linear-gradient(
+    90deg,
+    rgba(31, 27, 94, 1) 0%,
+    rgba(90, 176, 191, 1) 35%,
+    rgba(31, 27, 94, 1) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 0;
+}
+
+.logosyle {
+  font-family: "Alexandria", sans-serif;
+  font-size: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(31, 27, 94, 1) 0%,
+    rgba(90, 176, 191, 1) 35%,
+    rgba(31, 27, 94, 1) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 0;
+}
+
+header {
+  padding-top: 200px;
+  background-image: url("/image.jpg");
+  background-position: left;
+  background-size: cover ;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 560px) {
+  header {
+    padding-top: 100px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .logosyle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    padding-top: 50px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .logosyle {
+    font-size: 16px;
+  }
+}
