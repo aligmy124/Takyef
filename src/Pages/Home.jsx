@@ -9,6 +9,7 @@ import '../assets/style.css';
 export default function Home() {
   return (
     <>
+
       <SeoMeta
         title="فني تكييف بالرياض | تكييفي"
         description="خدمة تركيب وصيانة وتنظيف مكيفات بالرياض. أطلب فني تكييف الآن واستفد من أفضل الأسعار والخدمة السريعة."

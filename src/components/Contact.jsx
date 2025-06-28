@@ -1,12 +1,16 @@
+import Section from '../components/Section';
+import FixedCallButton from '../components/FixedCallButton';
+import FixedWhatsAppButton from '../components/FixedWhatsAppButton';
+
 function Contact() {
   return (
-    <section className="my-10">
-      <h2 className="text-2xl font-bold text-blue-800 border-r-4 border-blue-500 pr-3 mb-4">
-        تواصل معنا
-      </h2>
-      <p className="text-gray-700">للاستفسارات والحجوزات، اتصل بنا على:</p>
-      <p className="font-bold text-blue-700 mt-2">📞 0566789423</p>
-    </section>
+<Section title="تواصل الآن">
+    <h2 className="text-xl font-bold text-gray-800 mb-4 underline">966566789423</h2>
+    <div className="flex flex-wrap gap-3 mt-5">
+      <FixedCallButton />
+      <FixedWhatsAppButton />
+    </div>
+  </Section>
   );
 }
 
