@@ -40,7 +40,7 @@ function ContactForm() {
         />
 
         <input
-          type="tel"
+          type="text"
           name="phone"
           placeholder="رقم الجوال"
           required
